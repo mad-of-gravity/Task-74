@@ -3,7 +3,6 @@ import { useState, useMemo } from "react";
 
 function App() {
   const [text, setText] = useState("");
-  //const [iconClass, setIconClass] = useState("fas fa-times");
   const isNotNumber = useMemo(() => checkExpression(text), [text]);
 
   return (
@@ -32,8 +31,6 @@ function App() {
   );
 
   function checkExpression(exp) {
-    console.log(isNaN(exp));
-
     return isNaN(exp);
   }
 }
