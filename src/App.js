@@ -20,7 +20,7 @@ function App() {
         />
         {isNotNumber ? (
           <span className="icon is-small is-right">
-            <i className="fas fa-times" />
+            <i className="fa fa-times" />
           </span>
         ) : (
           <span className="icon is-small is-right">
